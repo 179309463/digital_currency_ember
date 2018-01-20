@@ -4,7 +4,7 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'digital-currency',
     environment,
-    rootURL: '/',
+    rootURL: '/frontend',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
