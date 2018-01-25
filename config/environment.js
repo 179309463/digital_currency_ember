@@ -3,6 +3,8 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'digital-currency',
+    // namespaced directory where resolver will look for your resource files
+    podModulePrefix: 'digital-currency/pods',    
     environment,
     rootURL: '/frontend',
     locationType: 'auto',

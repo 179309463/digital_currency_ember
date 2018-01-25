@@ -11,7 +11,7 @@ export default function() {
           city: 'San Francisco',
           category: 'Estate',
           bedrooms: 15,
-          image: '/assets/logo.png',
+          image: '/frontend/assets/logo.png',
           description: 'This grand old mansion'
         }
       },
@@ -24,7 +24,7 @@ export default function() {
           city: 'Seattle',
           category: 'Condo',
           bedrooms: 1,
-          image: '/assets/logo.png',
+          image: '/frontend/assets/logo.png',
           description: 'A commuters dream'
         }
       }
