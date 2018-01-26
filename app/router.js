@@ -16,6 +16,7 @@ Router.map(function() {
   this.route('demo', function() {
     this.route('highcharts');
     this.route('cssmodules');
+    this.route('wormhole');
   });
 });
 
