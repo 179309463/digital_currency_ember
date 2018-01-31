@@ -1,7 +1,7 @@
 import Controller from '@ember/controller';
-import defaultTheme from '../../themes/default-theme';
+import defaultTheme from './default-theme';
 
-import {randomNumber, randomDate} from '../../../utils/random';
+import {randomNumber} from './random';
 
 export default Controller.extend({
   chartOptions: {

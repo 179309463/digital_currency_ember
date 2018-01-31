@@ -10,13 +10,15 @@ Router.map(function() {
   this.route('about');
   this.route('contact');
   this.route('rentals', function() {
-    this.route('show', {path: '/:rental_id'});
+    this.route('rental', {resetNamespace: true, path: '/:rental_id'});
   });
 
   this.route('demo', function() {
     this.route('highcharts');
     this.route('cssmodules');
     this.route('wormhole');
+    this.route('rapidform');
+    this.route('chartjs');
   });
 });
 
